@@ -18,8 +18,8 @@ class Solution {
         }
         
         for(int num:nums2){
-            if(map.containsKey(Integer.valueOf(num)) && map.get(Integer.valueOf(num)) > 0){
-                map.put(Integer.valueOf(num), map.get(Integer.valueOf(num))-1);
+            if(map.containsKey(num) && map.get(num) > 0){
+                map.put(num, map.get(num)-1);
                 tmp.add(num);
             }
         }
