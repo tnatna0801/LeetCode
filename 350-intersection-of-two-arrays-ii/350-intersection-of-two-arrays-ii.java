@@ -1,12 +1,13 @@
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         
-        if(nums1.length >= nums2.length){
-            return solution(nums1, nums2);
-        }
-        else {
-            return solution(nums2, nums1);
-        }
+        // if(nums1.length >= nums2.length){
+        //     return solution(nums1, nums2);
+        // }
+        // else {
+        //     return solution(nums2, nums1);
+        // }
+        return solution(nums1, nums2);
     }
     
     public int[] solution(int[] nums1, int[] nums2){
